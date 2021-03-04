@@ -176,6 +176,10 @@ img {
   color: var(--primary-white-color);
 }
 
+.works-list-item {
+  display: block;
+}
+
 .works-list-item h2 {
   font-size: 18px;
   font-weight: 700;
