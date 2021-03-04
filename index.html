@@ -16,6 +16,7 @@
     <link href="./css/styles.css" rel="stylesheet" />
     <title>WebStudio</title>
   </head>
+
   <body>
     <header class="header">
       <div class="main-header container">
@@ -31,6 +32,7 @@
             <li class="item"><a class="nav-link link" href="">Контакты</a></li>
           </ul>
         </nav>
+
         <ul class="contacts list">
           <li class="item">
             <a class="contacts-link link" href="mailto:info@devstudio.com"
@@ -43,13 +45,17 @@
         </ul>
       </div>
     </header>
+
     <main>
       <section class="hero">
-        <div class="hero-content">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="container hero-content">
+          <div class="">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-button" type="button">Заказать услугу</button>
+          </div>
         </div>
       </section>
+
       <section class="advantages section container">
         <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="advantages-list list">
@@ -60,6 +66,7 @@
               позиции.
             </p>
           </li>
+
           <li class="advantages-list-item">
             <h3>Пунктуальность</h3>
             <p>
@@ -67,6 +74,7 @@
               собой.
             </p>
           </li>
+
           <li class="advantages-list-item">
             <h3>Планирование</h3>
             <p>
@@ -74,6 +82,7 @@
               обуславливает.
             </p>
           </li>
+
           <li class="advantages-list-item">
             <h3>Современные технологии</h3>
             <p>
@@ -82,89 +91,113 @@
           </li>
         </ul>
       </section>
+
       <section class="work-examples section container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
-            <a class="link" href="">
+            <div class="img-thumb">
               <img
                 src="./images/index/works/example1.jpg"
                 alt="Сотрудник работает с кодом"
                 width="370"
                 height="294"
               />
-            </a>
+            </div>
           </li>
+
           <li>
-            <a class="link" href="">
+            <div class="img-thumb">
               <img
                 src="./images/index/works/example2.jpg"
                 alt="Сотрудник проверяет мобильную верстку"
                 width="370"
                 height="294"
               />
-            </a>
+            </div>
           </li>
+
           <li>
-            <a class="link" href="">
+            <div class="img-thumb">
               <img
                 src="./images/index/works/example3.jpg"
                 alt="Дизайнер работает с палитрой"
                 width="370"
                 height="294"
               />
-            </a>
+            </div>
           </li>
         </ul>
       </section>
+
       <section class="team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                src="./images/index/our-team/employee3.jpg"
-                alt="Фото Игоря Демьяненко"
-                width="270"
-                height="260"
-              />
-              <h3>Игорь Демьяненко</h3>
-              <p>Product Designer</p>
+              <div class="img-thumb">
+                <img
+                  src="./images/index/our-team/employee3.jpg"
+                  alt="Фото Игоря Демьяненко"
+                  width="270"
+                  height="260"
+                />
+              </div>
+              <div class="team-list-card-content">
+                <h3>Игорь Демьяненко</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
+
             <li class="team-list-item">
-              <img
-                src="./images/index/our-team/employee2.jpg"
-                alt="Фото Ольги Репиной"
-                width="270"
-                height="260"
-              />
-              <h3>Ольга Репина</h3>
-              <p>Frontend Developer</p>
+              <div class="img-thumb">
+                <img
+                  src="./images/index/our-team/employee2.jpg"
+                  alt="Фото Ольги Репиной"
+                  width="270"
+                  height="260"
+                />
+              </div>
+              <div class="team-list-card-content">
+                <h3>Ольга Репина</h3>
+                <p>Frontend Developer</p>
+              </div>
             </li>
+
             <li class="team-list-item">
-              <img
-                src="./images/index/our-team/employee1.jpg"
-                alt="Фото Николая Тарасова"
-                width="270"
-                height="260"
-              />
-              <h3>Николай Тарасов</h3>
-              <p>Marketing</p>
+              <div class="img-thumb">
+                <img
+                  src="./images/index/our-team/employee1.jpg"
+                  alt="Фото Николая Тарасова"
+                  width="270"
+                  height="260"
+                />
+              </div>
+              <div class="team-list-card-content">
+                <h3>Николай Тарасов</h3>
+                <p>Marketing</p>
+              </div>
             </li>
+
             <li class="team-list-item">
-              <img
-                src="./images/index/our-team/employee4.jpg"
-                alt="Фото Михаила Ермакова"
-                width="270"
-                height="260"
-              />
-              <h3>Михаил Ермаков</h3>
-              <p>UI Designer</p>
+              <div class="img-thumb">
+                <img
+                  src="./images/index/our-team/employee4.jpg"
+                  alt="Фото Михаила Ермакова"
+                  width="270"
+                  height="260"
+                />
+              </div>
+              <div class="team-list-card-content">
+                <h3>Михаил Ермаков</h3>
+                <p>UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <a class="logo link" href="./index.html"><span>Web</span>Studio</a>
